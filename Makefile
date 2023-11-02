@@ -19,5 +19,8 @@ package-reinstall:
 package-reinstall-wind:
 	python -m pip install --user --force-reinstall dist/*.whl
 
+lint:
+	poetry run flake8 brain_games
+
 brain-games:
 	poetry run brain-games
