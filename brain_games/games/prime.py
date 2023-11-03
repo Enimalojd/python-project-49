@@ -24,4 +24,3 @@ def get_question_answer():
     question = random.randint(1, 3500)
     answer = 'yes' if question in case else 'no'
     return question, answer
-
