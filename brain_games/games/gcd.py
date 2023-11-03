@@ -13,4 +13,4 @@ def get_question_answer():
     question = f'{dig1} {dig2}'
     answer = math.gcd(dig1, dig2)
 
-    return question, answer
+    return question, str(answer)
