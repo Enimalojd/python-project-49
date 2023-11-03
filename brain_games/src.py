@@ -21,7 +21,7 @@ def run_game(game):
             game_rounds -= 1
         else:
             print(f"'{user_answer}' is wrong answer ;(. "
-                  f"Correct answer was '{answer}'. Let's try again, {name}!\n")
+                  f"Correct answer was '{answer}'. Let's try again, {name}!")
             break
 
     if game_rounds == 0:
