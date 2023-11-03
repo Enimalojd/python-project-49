@@ -2,7 +2,7 @@ import random
 
 
 def get_description():
-    return 'What is the result of the expression?'
+    return 'What is the result of the expression?\n'
 
 
 def get_question_answer():
