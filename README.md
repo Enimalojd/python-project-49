@@ -6,5 +6,9 @@
 <a href="https://asciinema.org/a/619299">Brain even</a>
 [![asciicast](https://asciinema.org/a/619299.svg)](https://asciinema.org/a/619299)
 
-<a href="https://asciinema.org/a/619300">Brain even</a>
+<a href="https://asciinema.org/a/619300">Brain calc</a>
 [![asciicast](https://asciinema.org/a/619300.svg)](https://asciinema.org/a/619300)
+
+<a href="https://asciinema.org/a/619302">Brain calc</a>
+[![asciicast](https://asciinema.org/a/619302.svg)](https://asciinema.org/a/619302)
+
