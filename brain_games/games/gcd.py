@@ -3,7 +3,7 @@ import random
 
 
 def get_description():
-    return 'Find the greatest common divisor of given numbers.\n'
+    return 'Find the greatest common divisor of given numbers.'
 
 
 def get_question_answer():

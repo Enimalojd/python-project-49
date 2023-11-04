@@ -2,7 +2,7 @@ import random
 
 
 def get_description():
-    return 'What number is missing in the progression?\n'
+    return 'What number is missing in the progression?'
 
 
 def get_question_answer():
