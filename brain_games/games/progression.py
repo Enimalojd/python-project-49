@@ -14,7 +14,7 @@ def get_question_answer():
     random_index = random.randint(1, len(progression) - 1)
 
     answer = progression[random_index]
-    progression[random_index] = '...'
+    progression[random_index] = '..'
     question = ' '.join(map(str, progression))
 
     return question, str(answer)
