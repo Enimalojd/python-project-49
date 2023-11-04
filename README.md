@@ -9,6 +9,12 @@
 <a href="https://asciinema.org/a/619300">Brain calc</a>
 [![asciicast](https://asciinema.org/a/619300.svg)](https://asciinema.org/a/619300)
 
-<a href="https://asciinema.org/a/619302">Brain calc</a>
+<a href="https://asciinema.org/a/619302">Brain gcd</a>
 [![asciicast](https://asciinema.org/a/619302.svg)](https://asciinema.org/a/619302)
+
+<a href="https://asciinema.org/a/619303">Brain progression</a>
+[![asciicast](https://asciinema.org/a/619303.svg)](https://asciinema.org/a/619303)
+
+<a href="https://asciinema.org/a/619304">Brain prime</a>
+[![asciicast](https://asciinema.org/a/619304.svg)](https://asciinema.org/a/619304)
 
