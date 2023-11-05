@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "This is a project with text games in python"
 authors = ["Enimalojd <enderston8@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/Enimalojd/python-project-49"
 packages = [
   { include = "brain_games" },
+]
+classifiers = [
+    "Topic :: Education",
 ]
 
 [tool.poetry.dependencies]
