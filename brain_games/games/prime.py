@@ -21,6 +21,6 @@ def get_question_answer():
 
     case = [i for i in case if case[i] != 0]
 
-    question = random.randint(1, 3500)
+    question = random.randint(1, end)
     answer = 'yes' if question in case else 'no'
     return question, answer
