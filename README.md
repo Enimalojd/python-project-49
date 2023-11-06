@@ -7,12 +7,12 @@
 
 To successfully install and build the project, make sure that you have the following versions of Python and pip installed:
 
-- Python == 3.10
-- pip == 23.3
+- Python == ^3.10
+- pip == ^23.3
 
 You can install the necessary dependencies by running the following commands:
 
-1. 'make install' - install project dependencies.
+1. `make install` - install project dependencies.
 2. `make build` - build the project.
 3. `make package-install` - install the assembled package.
 
