@@ -1,4 +1,5 @@
 import random
+import operator
 
 
 def get_description():
@@ -9,10 +10,10 @@ def get_question_answer():
     dig1 = random.randint(0, 50)
     dig2 = random.randint(0, 50)
 
-    operators = ['+', '-', '*',]
-    operator = random.choice(operators)
+    operators = {'+': operator.add, '-': operator.sub, '*': operator.mul}
+    operator_symbol, operator_func = random.choice(list(operators.items()))
 
-    question = f'{dig1} {operator} {dig2}'
-    answer = eval(question)
+    question = f'{dig1} {operator_symbol} {dig2}'
+    answer = operator_func(dig1, dig2)
 
     return question, str(answer)
