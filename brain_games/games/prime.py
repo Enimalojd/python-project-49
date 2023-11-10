@@ -5,22 +5,24 @@ def get_description():
     return 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_question_answer():
-    end = random.randint(50, 3500)
-    case = [i for i in range(end + 1)]
+def is_prime(n):
+    case = [i for i in range(n + 1)]
     case[1] = 0
     i = 2
 
-    while i < end ** 0.5:
+    while i < n ** 0.5:
         if case[i] != 0:
             j = i ** 2
-            while j <= end:
+            while j <= n:
                 case[j] = 0
                 j += i
         i += 1
 
     case = [i for i in case if case[i] != 0]
+    return True if n in case else False
 
-    question = random.randint(1, end)
-    answer = 'yes' if question in case else 'no'
+
+def get_question_answer():
+    question = random.randint(1, 3500)
+    answer = 'yes' if is_prime(question) else 'no'
     return question, answer
